@@ -1,5 +1,5 @@
-Program 3: WAP to display data of student class defined in University Package
-
+//Program 3: WAP to display data of student class defined in University Package
+//1)Make the Student Class part of University Package.
 
 package University;
 
