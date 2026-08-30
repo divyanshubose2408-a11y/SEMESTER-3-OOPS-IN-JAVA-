@@ -1,3 +1,6 @@
+//Program 3: WAP to display data of student class defined in University Package
+//2. ake a separate file for Main Class which is a part of default package and import university package in the same to input and print student data.
+
 import java.util.Scanner;
 import University.UniStudent; 
 
