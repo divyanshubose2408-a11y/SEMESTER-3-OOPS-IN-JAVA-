@@ -1,0 +1,40 @@
+class Calculator {
+    double add(double a, double b) {
+        return a + b;
+    }
+
+    double subtract(double a, double b) {
+        return a - b;
+    }
+
+    double multiply(double a, double b) {
+        return a * b;
+    }
+
+    double divide(double a, double b) {
+        return a / b;
+    }
+}
+
+class ScientificCalculator extends Calculator {
+    double log(double a) {
+        return Math.log(a);
+    }
+
+    double exponent(double a, double b) {
+        return Math.pow(a, b);
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        ScientificCalculator calc = new ScientificCalculator();
+
+        System.out.println("Addition: " + calc.add(10, 5));
+        System.out.println("Subtraction: " + calc.subtract(10, 5));
+        System.out.println("Multiplication: " + calc.multiply(10, 5));
+        System.out.println("Division: " + calc.divide(10, 5));
+        System.out.println("Log: " + calc.log(10));
+        System.out.println("Exponent: " + calc.exponent(2, 3));
+    }
+}
